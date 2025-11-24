@@ -60,7 +60,7 @@ def predict_door_state(frame):
     return predicted_label, confidence
 
 # ================== REAL-TIME VIDEO CAPTURE ==================
-cap = cv2.VideoCapture("http://192.168.0.145:4747/video")  # 0 = default webcam
+cap = cv2.VideoCapture("http://192.168.0.146:4747/video")  # 0 = default webcam
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 300)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 400)
 
